@@ -3,7 +3,7 @@
 
 let a = {
   name: "Srinjoy",
-  profession: "SoftwareEngineer"
+  profession: "Software Engineer"
 }
 
 function printDetails(state, city) {
@@ -15,7 +15,7 @@ printDetails.call(a, "West Bengal", "Kolkata");
 
 let b = {
   name: "Sagar",
-  profession: "Kuch Nahi"
+  profession: "Software Engineer"
 }
 printDetails.apply(b, ['Maharashtra', 'Pune'])
 
